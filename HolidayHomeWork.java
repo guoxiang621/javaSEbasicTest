@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class HolidayHomeWork{
 	public static void main(String[] args){
 		
-		
 		//完数
 		int result;
 		for(int i=1;i<=1000;i++){
