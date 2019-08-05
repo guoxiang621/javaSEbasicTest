@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class HolidayHomeWork{
 	public static void main(String[] args){
 		
-		/*
-		//ÍêÊı
+		
+		//å®Œæ•°
 		int result;
 		for(int i=1;i<=1000;i++){
 			result = 0;
@@ -16,11 +16,11 @@ public class HolidayHomeWork{
 			if(result == i){
 				System.out.println(i);
 			}
-		}*/
+		}
 		
 		
-		/*
-		// µ¯Çò
+		
+		// å¼¹çƒ
 		int height = 100;
 		int totalDistance = 0;
 		int hitsTime;
@@ -29,12 +29,12 @@ public class HolidayHomeWork{
 		}
 		System.out.println(totalDistance);
 		hitsTime = 10;
-		System.out.println("µÚ10´Îµ¯Æğ¸ß¶È£º" + height/(2*(hitsTime-1)));
-		*/
+		System.out.println("ç¬¬10æ¬¡å¼¹èµ·é«˜åº¦ï¼š" + height/(2*(hitsTime-1)));
 		
 		
-		/*
-		// Âò¼¦
+		
+		
+		// ä¹°é¸¡
 		int totalPrice = 100;
 		int totalNum = 100;
 		int cockPrice = 5;
@@ -45,19 +45,19 @@ public class HolidayHomeWork{
 				for(int chickNum=0;chickNum <= totalPrice/threeChickPrice;chickNum++){
 					if(cockNum*cockPrice+henNum*henPrice+chickNum*threeChickPrice==100 && 
 					cockNum+henNum+chickNum*3==100){
-						System.out.println("¹«¼¦"+cockNum+"Ä¸¼¦"+henNum+"Ğ¡¼¦"+chickNum*3);
+						System.out.println("å…¬é¸¡"+cockNum+"æ¯é¸¡"+henNum+"å°é¸¡"+chickNum*3);
 					}
 				}
 			}
 		}
-		*/
 		
-		/*// ÍÃ×Ó
+		
+		// å…”å­
 		int last = 2;
 		int finalRabbit = 2;
 		int temp;
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÔÂ·İ£º");
+		System.out.print("è¯·è¾“å…¥æœˆä»½ï¼š");
 		int months = scanner.nextInt();
 		for(int i=3;i<=months;i++){
 			if(months==1){
@@ -72,8 +72,8 @@ public class HolidayHomeWork{
 				last = temp;
 			}
 		}
-		System.out.println("µÚ"+months+"¸öÔÂµÄÍÃ×ÓÊıÁ¿Îª£º"+finalRabbit);
-		*/
+		System.out.println("ç¬¬"+months+"ä¸ªæœˆçš„å…”å­æ•°é‡ä¸ºï¼š"+finalRabbit);
+		
 	
 		
 	}
