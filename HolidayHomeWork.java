@@ -31,7 +31,7 @@ public class HolidayHomeWork{
 		System.out.println("第10次弹起高度：" + height/(2*(hitsTime-1)));
 		
 		
-		
+	
 		
 		// 买鸡
 		int totalPrice = 100;
