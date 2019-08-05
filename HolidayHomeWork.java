@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class HolidayHomeWork{
 	public static void main(String[] args){
 		
-		/*
+		
 		//完数
 		int result;
 		for(int i=1;i<=1000;i++){
@@ -16,10 +16,10 @@ public class HolidayHomeWork{
 			if(result == i){
 				System.out.println(i);
 			}
-		}*/
+		}
 		
 		
-		/*
+		
 		// 弹球
 		int height = 100;
 		int totalDistance = 0;
@@ -30,10 +30,10 @@ public class HolidayHomeWork{
 		System.out.println(totalDistance);
 		hitsTime = 10;
 		System.out.println("第10次弹起高度：" + height/(2*(hitsTime-1)));
-		*/
 		
 		
-		/*
+		
+		
 		// 买鸡
 		int totalPrice = 100;
 		int totalNum = 100;
@@ -50,9 +50,9 @@ public class HolidayHomeWork{
 				}
 			}
 		}
-		*/
 		
-		/*// 兔子
+		
+		// 兔子
 		int last = 2;
 		int finalRabbit = 2;
 		int temp;
@@ -73,8 +73,8 @@ public class HolidayHomeWork{
 			}
 		}
 		System.out.println("第"+months+"个月的兔子数量为："+finalRabbit);
-		*/
-	
+		
+
 		
 	}
 }
